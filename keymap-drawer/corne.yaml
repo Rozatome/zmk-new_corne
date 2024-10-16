@@ -1,7 +1,7 @@
 layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
 layers:
   default:
-  - $$mdi:keyboard-tab$$
+  - $$mdi:keyboard-esc$$
   - Q
   - W
   - E
@@ -14,7 +14,7 @@ layers:
   - O
   - P
   - {t: '$$mdi:backspace$$', type: backspace}
-  - '&td0'
+  - $$mdi:keyboard-tab$$
   - A
   - S
   - D
@@ -27,7 +27,7 @@ layers:
   - L
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
-  - $$mdi:apple-keyboard-control$$
+  - raise
   - Z
   - X
   - C
@@ -39,7 +39,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - $$mdi:keyboard-esc$$
+  - PRINTSCREEN
   - $$mdi:keyboard-space$$
   - LGUI
   - lower
@@ -94,7 +94,7 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - INS
+  - $$mdi:backspace-reverse-outline$$
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
@@ -125,7 +125,7 @@ layers:
   - {t: ']', s: '}'}
   - {t: \, s: '|'}
   - {t: '`', s: '~'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - OUT USB
   - OUT BLE
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -144,7 +144,7 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {type: held}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
   '3':
